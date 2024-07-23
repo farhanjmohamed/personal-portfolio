@@ -26,7 +26,7 @@ function App() {
         <img className="mx-auto mt-10 border-white rounded-xl border-2" src={ppic} alt="" />
       </div>
 
-      <p className="text-center font-black text-2xl text-gray-50 pt-20">About</p>
+      <p className="text-center font-black text-2xl text-gray-50 pt-20 pb-5">About</p>
       <div className="w-2/3 border-gray-100 border rounded-xl mx-auto mt-2 h-auto" id="about">
         <p className="w-1/2 text-center mx-auto p-5 text-white">
           I'm eager to bring my imaginative flair to the tech world and play a part in shaping its future. I'm seeking a
@@ -46,7 +46,7 @@ function App() {
         </div>
       </div>
 
-      <p className="text-center font-black text-2xl text-gray-50 pt-20">Skills</p>
+      <p className="text-center font-black text-2xl text-gray-50 pt-20 pb-5">Skills</p>
       <div className="p-5 text-white w-2/3 border-gray-100 rounded-xl border-2 mx-auto mt-2 h-auto" id="skills">
         <div className="flex justify-center">
           <div className="text-center grid grid-cols-2 gap-10">
@@ -114,8 +114,8 @@ function App() {
         </div>
       </div>
 
-      <p className="text-center font-black text-2xl text-gray-50 pt-20">Projects</p>
-      <div className="w-2/3 pb-10 border-gray-100 border-2 mx-auto mt-2 mb-10 h-auto" id="projects">
+      <p className="text-center font-black text-2xl text-gray-50 pt-20 scroll-pb-0.5">Projects</p>
+      <div className="w-2/3 pb-10 border-gray-100 rounded-xl border-2 mx-auto mt-2 mb-10 h-auto" id="projects">
         <p className="text-center font-bold text-xl text-white pt-5 pb-5">Web Dev</p>
         <div className="flex flex-col text-white justify-center items-center">
           <div id="project-block" className="text-left w-1/2 p-4 border border-white rounded-xl ml-5 mb-5">
