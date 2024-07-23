@@ -27,7 +27,7 @@ function App() {
       </div>
 
       <p className="text-center font-black text-2xl text-gray-50 pt-20">About</p>
-      <div className="w-1/2 border-gray-100 border rounded-xl mx-auto mt-2 h-auto" id="about">
+      <div className="w-2/3 border-gray-100 border rounded-xl mx-auto mt-2 h-auto" id="about">
         <p className="w-1/2 text-center mx-auto p-5 text-white">
           I'm eager to bring my imaginative flair to the tech world and play a part in shaping its future. I'm seeking a
           role in tech where I can learn and make an impact. I am looking for a growth-oriented environment where I can
@@ -49,54 +49,65 @@ function App() {
       <p className="text-center font-black text-2xl text-gray-50 pt-20">Skills</p>
       <div className="p-5 text-white w-2/3 border-gray-100 rounded-xl border-2 mx-auto mt-2 h-auto" id="skills">
         <div className="flex justify-center">
-          <div className="text-center grid grid-cols-2 gap-40">
+          <div className="text-center grid grid-cols-2 gap-10">
             <ol>
               <li className="flex flex-row justify-start items-center gap-5">
-                <img src={rust} className="w-auto h-10" />
+                <img src={rust} className="w-auto h-10 pb-2" />
                 <p>Rust </p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                <img src={ruby} className="w-auto h-10" />
+                <img src={ruby} className="w-auto h-10 pb-2" />
                 <p>Ruby</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                <img src={js} className="w-auto h-10" />
+                <img src={js} className="w-auto h-10 pb-2" />
                 <p>Javascript</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                C# <img src={csharp} className="w-auto h-10" />
+                <img src={csharp} className="w-auto h-10 pb-2" />
+                <p>C#</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                HTML <img src={html} className="w-auto h-10" />
+                <img src={html} className="w-auto h-10 pb-2" />
+                <p>HTML</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                CSS <img src={css} className="w-auto h-10" />
+                <img src={css} className="w-auto h-10 pb-2" />
+                <p>CSS</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                PostgresSQL <img src={postgres} className="w-auto h-10" />
+                <img src={postgres} className="w-auto h-10 pb-2" />
+                <p>PostgresSQL</p>
               </li>
             </ol>
             <ol>
               <li className="flex flex-row justify-start items-center gap-5">
-                Ruby on Rails <img src={rails} className="w-auto h-10" />
+                <img src={rails} className="w-auto h-10 pb-2" />
+                <p>Ruby on Rails</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                Reactjs <img src={react} className="w-auto h-10" />
+                <img src={react} className="w-auto h-10 pb-2" />
+                <p>Reactjs</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                Tailwindcss <img src={tailwindcss} className="w-auto h-10" />
+                <img src={tailwindcss} className="w-auto h-10 pb-2" />
+                <p>TailwindCSS</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                Bootstrap <img src={bootstrap} className="w-auto h-10" />
+                <img src={bootstrap} className="w-auto h-10 pb-2" />
+                <p>Bootstrap</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                Git <img src={git} className="w-auto h-10" />
+                <img src={git} className="w-auto h-10 pb-2" />
+                <p>Git</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                Npm <img src={npm} className="w-auto h-10" />
+                <img src={npm} className="w-auto h-10 pb-2" />
+                <p>Npm</p>
               </li>
               <li className="flex flex-row justify-start items-center gap-5">
-                Cargo <img src={cargo} className="w-auto h-10" />
+                <img src={cargo} className="w-auto h-10 pb-2" />
+                <p>Cargo</p>
               </li>
             </ol>
           </div>
