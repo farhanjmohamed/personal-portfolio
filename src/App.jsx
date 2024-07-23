@@ -155,8 +155,9 @@ function App() {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique autem, laboriosam iste ad
               enim velit corporis molestiae commodi quibusdam.
             </p>
-            <button className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950 mr-2">Repo</button>
-            <button className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950">Demo</button>
+            <div className="hover:cursor-pointer border-2 border-white p-1 w-20 text-center rounded-xl hover:bg-zinc-950 mr-2">
+              <a href="https://github.com/farhanjmohamed/temp-converter">Repo</a>
+            </div>
           </div>
         </div>
       </div>
