@@ -157,7 +157,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div id="project-block" className="text-left w-1/2 p-4 border border-white rounded-xl ml-5 mb-5">
+          {/* <div id="project-block" className="text-left w-1/2 p-4 border border-white rounded-xl ml-5 mb-5">
             <p className="pb-2 text-xl">TextRPG</p>
             <p className="pb-2">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique autem, laboriosam iste ad
@@ -171,7 +171,7 @@ function App() {
                 <a href="">Demo</a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <p className="text-center font-bold text-xl text-white pt-5 pb-5">Rust</p>
