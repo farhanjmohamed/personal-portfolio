@@ -119,16 +119,26 @@ function App() {
         <p className="text-center font-bold text-xl text-white pt-5 pb-5">Web Dev</p>
         <div className="flex flex-col text-white justify-center items-center">
           <div id="project-block" className="text-left w-1/2 p-4 border border-white rounded-xl ml-5 mb-5">
-            <p className="pb-2 text-lg">Fittr</p>
+            <p className="pb-2 text-xl">Fittr</p>
             <p className="pb-2">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique autem, laboriosam iste ad
-              enim velit corporis molestiae commodi quibusdam.
+              Fittr was my capstone project from my coding bootcamp. It’s a full-stack project where I built the backend
+              with Ruby on Rails and the frontend with React. This was a major project for me, and I learned so much
+              along the way. Starting with the backend helped me understand data structures and how they interact with
+              the frontend. When I moved on to the frontend, it was great to see everything come together. Since I’m
+              really into fashion, I created this project as a closet organizer where you can create and save outfits.
+              It was a super fun project and a great learning experience.
             </p>
-            <button className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950 mr-2">Repo</button>
-            <button className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950">Demo</button>
+            <div className="flex flex-row text-center">
+              <div className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950 mr-2">
+                <a href="https://github.com/farhanjmohamed/fittr-frontend">Repo</a>
+              </div>
+              <div className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950">
+                <a href="https://fittr-frontend.vercel.app/">Demo</a>
+              </div>
+            </div>
           </div>
           <div id="project-block" className="text-left w-1/2 p-4 border border-white rounded-xl ml-5 mb-5">
-            <p className="pb-2 text-lg">JS Fun Box</p>
+            <p className="pb-2 text-xl">JS Fun Box</p>
             <p className="pb-2">
               While learning React, I stumbled upon a Javascript YouTube tutorial series for making small games. I
               decided to take it up a notch by converting the JavaScript code into React, which turned out to be a great
@@ -148,23 +158,33 @@ function App() {
             </div>
           </div>
           <div id="project-block" className="text-left w-1/2 p-4 border border-white rounded-xl ml-5 mb-5">
-            <p className="pb-2 text-lg">TextRPG</p>
+            <p className="pb-2 text-xl">TextRPG</p>
             <p className="pb-2">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique autem, laboriosam iste ad
               enim velit corporis molestiae commodi quibusdam.
             </p>
-            <button className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950 mr-2">Repo</button>
-            <button className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950">Demo</button>
+            <div className="flex flex-row text-center">
+              <div className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950 mr-2">
+                <a href="">Repo</a>
+              </div>
+              <div className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950">
+                <a href="">Demo</a>
+              </div>
+            </div>
           </div>
         </div>
 
         <p className="text-center font-bold text-xl text-white pt-5 pb-5">Rust</p>
         <div className="flex flex-col text-white justify-center items-center">
           <div id="project-block" className="text-left w-1/2 p-4 border border-white rounded-xl ml-5 mb-5">
-            <p className="pb-2 text-lg">Temp Converter</p>
+            <p className="pb-2 text-xl">Temp Converter</p>
             <p className="pb-2">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique autem, laboriosam iste ad
-              enim velit corporis molestiae commodi quibusdam.
+              This project is my first Rust project. This project was a great way to dive into Rust and learn some of
+              its fundamental aspects. I got to grips with getting user input, using if statements, performing
+              mathematical operations, handling mutable variables, and formatting input. I also learned how to use
+              external packages and convert strings to integers. The converter lets you switch between Celsius and
+              Fahrenheit with input validation to ensure the correct data types are used. Overall, it was a fun and
+              educational experience, and I’m excited to continue exploring Rust and lower-level programming.
             </p>
             <div className="hover:cursor-pointer border-2 border-white p-1 w-20 text-center rounded-xl hover:bg-zinc-950 mr-2">
               <a href="https://github.com/farhanjmohamed/temp-converter">Repo</a>
