@@ -130,12 +130,17 @@ function App() {
           <div id="project-block" className="text-left w-1/2 p-4 border border-white rounded-xl ml-5 mb-5">
             <p className="pb-2 text-lg">JS Fun Box</p>
             <p className="pb-2">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique autem, laboriosam iste ad
-              enim velit corporis molestiae commodi quibusdam.
+              While learning React, I stumbled upon a Javascript YouTube tutorial series for making small games. I
+              decided to take it up a notch by converting the JavaScript code into React, which turned out to be a great
+              way to learn. This project really highlighted the differences between vanilla JS and React for me and
+              solidified my JavaScript knowledge. Plus, it was a lot of fun! Being a video game enthusiast, I loved
+              blending my passion with a learning project. I'm super proud of what I built, and I leaned on Google,
+              YouTube, and ChatGPT to help me out along the way. All in all, it was an awesome project that boosted my
+              skills.
             </p>
             <div className="flex flex-row text-center">
               <div className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950 mr-2">
-                <a href="">Repo</a>
+                <a href="https://github.com/farhanjmohamed/jsfunbox">Repo</a>
               </div>
               <div className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950">
                 <a href="https://jsfunbox.vercel.app">Demo</a>
