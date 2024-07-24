@@ -133,8 +133,14 @@ function App() {
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur similique autem, laboriosam iste ad
               enim velit corporis molestiae commodi quibusdam.
             </p>
-            <button className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950 mr-2">Repo</button>
-            <button className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950">Demo</button>
+            <div className="flex flex-row text-center">
+              <div className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950 mr-2">
+                <a href="">Repo</a>
+              </div>
+              <div className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950">
+                <a href="https://www.jsfunbox.vercel.app">Demo</a>
+              </div>
+            </div>
           </div>
           <div id="project-block" className="text-left w-1/2 p-4 border border-white rounded-xl ml-5 mb-5">
             <p className="pb-2 text-lg">TextRPG</p>
