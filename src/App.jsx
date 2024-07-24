@@ -138,7 +138,7 @@ function App() {
                 <a href="">Repo</a>
               </div>
               <div className="border-2 border-white p-1 w-20 rounded-xl hover:bg-zinc-950">
-                <a href="https://www.jsfunbox.vercel.app">Demo</a>
+                <a href="https://jsfunbox.vercel.app">Demo</a>
               </div>
             </div>
           </div>
